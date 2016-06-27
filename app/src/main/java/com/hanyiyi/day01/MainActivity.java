@@ -1,5 +1,6 @@
 package com.hanyiyi.day01;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         mTextView = (TextView) findViewById(R.id.tv_show);
         mTextView.setText("我的文字被改变了");
         mTextView.setTextSize(25);
+        mTextView.setTextColor(Color.DKGRAY);
 
     }
 }
