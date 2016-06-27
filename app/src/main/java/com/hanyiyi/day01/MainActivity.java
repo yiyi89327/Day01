@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         mTextView = (TextView) findViewById(R.id.tv_show);
         mTextView.setText("我的文字被改变了");
+        mTextView.setTextSize(25);
 
     }
 }
